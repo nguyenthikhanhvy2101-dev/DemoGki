@@ -1,3 +1,22 @@
+
 <resources>
-    <string name="app_name">DemoGki</string>
+    <string name="app_name">Calculator Tool</string>
+    <string name="title">CALCULATOR TOOL</string>
+    <string name="subtitle">MathMadeEasy</string>
+    <string name="input_fields">INPUT FIELDS</string>
+    <string name="hint_num1">Nhập số thứ nhất</string>
+    <string name="hint_num2">Nhập số thứ hai</string>
+    <string name="select_operation">SELECT OPERATION</string>
+    <string name="op_add">Cộng (+)</string>
+    <string name="op_sub">Trừ (-)</string>
+    <string name="op_mul">Nhân (*)</string>
+    <string name="op_div">Chia (/)</string>
+    <string name="calculate">CALCULATE RESULT</string>
+    <string name="result">RESULT</string>
+    <string name="result_default">0</string>
+    <string name="calculation_complete">Calculation complete.</string>
+    <string name="error_input">Vui lòng nhập đầy đủ hai số!</string>
+    <string name="error_number">Vui lòng nhập số hợp lệ!</string>
+    <string name="error_operation">Vui lòng chọn phép tính!</string>
+    <string name="error_division">Không thể chia cho 0!</string>
 </resources>

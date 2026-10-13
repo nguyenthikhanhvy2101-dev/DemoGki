@@ -18,6 +18,11 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+        buildFeatures {
+            viewBinding = true
+        }
+
+
     buildTypes {
         release {
             optimization {
@@ -40,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+    implementation("androidx.cardview:cardview:1.0.0")
+
 }
